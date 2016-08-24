@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: #2d3c49 !important;
+}
+
+#logo {
+    width: 120px;
+}
+
+.header-wrapper { 
+    border-bottom: 3px solid #7d97ad;
+    margin-bottom: 15px;
+}
+
+.featured-header {
+    color: #7d97ad;
+}
+
+@media screen and (max-width: 767px) {
+    #name {
+        font-size: 24px;
+    }
+
+    #tag {
+        font-size: 16px;
+    }
+
+    .featured-header-wrapper {
+        text-align: center;
+    }
+}
